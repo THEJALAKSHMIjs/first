@@ -28,19 +28,27 @@ const PromoAd = () => {
   marginTop: '10px', 
   flexWrap: 'wrap' 
 }}>
-  <div style={{ padding: '20px', display: 'inline-block' }}>
-    <div style={{ padding: '5px', border: '2px dashed orange' }}>
-      <div style={{ padding: '3px', border: '2px dashed orange' }}>
+  <div style={{ padding: '10px', display: 'inline-block' }}>
+    <div style={{ padding: '1px', border: '1px dashed orange' }}>
+      <div style={{ padding: '3px', border: '1px dashed orange' }}>
         <p style={{ margin: '0', fontSize: '13px' }}>Coin prize</p>
       </div>
     </div>
-    <div style={{ marginTop: '10px', padding: '5px', border: '2px dashed orange' }}>
-      <div style={{ padding: '3px', border: '2px dashed orange' }}>
+    <div style={{ marginTop: '10px', padding: '1px', border: '1px dashed orange' }}>
+      <div style={{ padding: '3px', border: '1px dashed orange' }}>
         <p style={{ margin: '0', fontSize: '13px'}}>1 sat = 0.01$</p>
       </div>
     </div>
   </div>
 </div>
+   <div className="row">
+    <div className="col-md-2"></div>
+    <div className="col-md-8 mt-3">
+      <div  style={{width: '100%', height: 450, background: '#C4C4C4', borderRadius: 19, border: '21px #363535 solid'}}></div>
+      
+    </div>
+    <div className="col-md-2"></div>
+   </div>
 
     </div>
   );
